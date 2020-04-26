@@ -1,0 +1,21 @@
+.div-about{
+    justify-content: space-around;
+    text-align: center;
+    padding: 25px 25px 14px;
+    line-height: 23px;
+    padding-top:150px;
+    padding-bottom: 130px;
+    background-color: black;
+}
+.h-about{
+    color: grey;
+    padding-bottom: 23px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+}
+.p-about{
+    color:grey;
+    line-height: 40px;
+    font-size:18px;
+    font-family: 'Reem Kufi', sans-serif;
+}

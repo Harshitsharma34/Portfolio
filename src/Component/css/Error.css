@@ -1,0 +1,25 @@
+.error-div{
+    background: url('../Image/404.png') no-repeat center center fixed ;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+}
+.Error-text h1{
+    font-family: 'Special Elite', cursive;
+    color:rgb(219, 173, 88);
+    font-size:53px;
+    text-shadow: 5px 7px 2px black;
+    text-align: center;
+    padding-top: 15px;
+}
+@media (max-width:900px),(max-width:500px){
+.Error-text h1{
+padding-top: 44px;
+}
+}
+@media (max-width:499px)
+{
+    .Error-text h1{
+        padding-top: 60px;
+    }
+}

@@ -1,0 +1,165 @@
+.about{
+    font-size :40px;
+    color: white;
+    margin:0;
+    padding:0;
+    background-color: black;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 67px;
+}
+div .row{
+    display: flex;
+    align-items: center;
+    background-color:black;
+    justify-content: space-around;
+    padding-top:54px;
+    padding-bottom:34px;
+    padding-left:22px;
+    padding-right:23px;
+    line-height: 73px;
+    
+}
+.experties{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 36px;
+    padding-bottom: 14px;
+    padding-top:23px;
+    color:grey;
+
+}
+.div-heading{
+    font-size: 24px;
+    line-height: 43px;
+}
+.div-para{
+    font-size:18px;
+    
+}
+.div-card
+{
+    padding:10px 20px 0 20px;
+    cursor: pointer;
+    top:-43px
+    
+}
+.exp-1{
+    color :grey;
+    font-size:58px; 
+    position: absolute;
+    top:-24px;
+    left:95px;
+
+}
+.simple-box{
+    align-items: stretch;
+    height: 288px;
+    width:254px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    padding: 100px 0 0 0;
+    margin-top:7px;
+    padding-top: 23px;
+}
+.div-b{
+    line-height: 35px;
+    color:grey;
+    text-transform: uppercase;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.backend{
+    line-height: 62px;
+    color:grey;
+    text-transform: uppercase;
+    font-size:26px ;
+}
+.div-f{
+    line-height: 32px;
+    color:grey;
+    text-transform: uppercase;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.frontend{
+    line-height: 20px;
+    padding:20px;
+    color:grey;
+    font-size:26px ;
+    text-transform: uppercase;
+}
+.database{
+    line-height: 20px;
+    padding:20px;
+    color:grey;
+    font-size:26px ;
+    text-transform: uppercase;
+}
+.para-d{
+    line-height: 32px;
+    color:grey;
+    text-transform: uppercase;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.div-card:hover,
+.div-card:active{
+color: salmon;
+}
+@media (max-width:750px),(max-width:550px)
+{
+    .exp-1{
+        left:72px;
+    }
+    .div-b{
+        font-size: 15px;
+        line-height: 23px;
+
+    }
+    .div-f{
+        font-size:15px;
+        line-height: 23px;
+    }
+    .para-d{
+        font-size: 15px;
+        line-height: 27px;
+    }
+}
+@media (max-width:550px)
+{   
+
+    div .row{
+        flex-direction: column;
+    }
+    .div-b{
+        font-size: 14px;
+        line-height: 32px;
+    }
+    .backend{
+        line-height: 55px;
+        font-size: 23px;
+    }
+    .frontend{
+        line-height: 25px;
+        font-size: 23px;
+    }
+    .div-f{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .div-d{
+        font-size: 14px;
+        line-height: 34px;
+    }
+    .database{
+        padding-left: 4px;
+        font-size: 23px;
+    }
+    .exp-1{
+        font-size: 43px;
+        top:-4px;
+        right:82px
+    }
+    
+}
+

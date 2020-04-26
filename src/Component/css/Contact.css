@@ -1,0 +1,126 @@
+.main-div{
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom:15px;
+    line-height: 3px;
+}
+
+.icon-div-contact{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px ;
+    width:20%;
+    line-height:3px
+}
+.div-git{
+    padding: 6px 5px;
+}
+.div-linkedin{
+    padding: 6px 5px;
+    text-decoration: none;
+}
+.div-insta{
+    padding: 6px 5px;
+}
+.github{
+    color: grey;
+    text-decoration: none;
+}
+.linkedin{
+    color: grey;
+    text-decoration: none;
+}
+.instagram{
+    color: grey;
+    text-decoration: none; 
+}
+div .head-contact{
+    position: relative;
+    font-size: 22px;
+    color:rgb(34, 34, 34);
+    bottom:-16px;
+    font-family: 'Roboto', sans-serif;  
+}
+
+div .head-contact2{
+    font-size: 17px;
+    color:grey;
+    padding-bottom: 2px;
+    font-family: 'Reem Kufi', sans-serif;
+    
+}
+.head3{
+    font-size: 13px;
+    color: rgb(177, 177, 177);
+    padding-bottom: 5px;
+    line-height: 2px;
+    justify-content: center;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.Find-me{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    padding-top: 23px;
+    padding-bottom: 2px;
+    color: grey;
+}
+.github :hover,
+.github:active{
+    color: rgb(247, 186, 108);
+}
+.linkedin :hover,
+.linkedin:active{
+    color: rgb(247, 186, 108);
+}
+.instagram:hover,
+.instagram:active{
+    color: rgb(247, 186, 108);
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+}
+.ModalForm-div{
+    
+    padding: 2px 5px 5px;
+}
+.submit-Button{
+
+    width:80%;
+    justify-content: center;
+    align-items: center;
+}
+.formitemlist{
+    text-align: center;
+}
+.letsConnect{
+    background-color: rgb(247, 186, 108);
+    padding:5px 25px 5px;
+    border-radius: 23px;
+}
+
+@media (max-width:500px)
+{
+    .main-div{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .icon-div{
+        font-size: 12px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+    }
+    .ModalForm-div{
+        text-align: center;
+        justify-content: center;
+        width:200px;
+        height: 300px;
+    }
+    .formitem{
+        display: inline;
+        text-align: center;
+    }
+}

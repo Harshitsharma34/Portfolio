@@ -1,0 +1,127 @@
+*{
+    margin:0 auto 0 auto;
+    padding:0;
+}
+
+#home{
+    background-image:url('../Image/Harshit-BG.png') ;
+    height:100vh;
+    background-size: cover;
+    width:100%;
+    text-align: center;
+    overflow-y:hidden
+}
+.header-title{
+    float: left;
+    margin-top: 48px;
+    margin-left: 48px;
+    text-align: left;
+    
+}
+.header-title h4{
+font-size: 26px;
+color:white;
+line-height: 3px;
+}
+.header-title p{
+    font-size: 17px;
+    color:rgb(141, 137, 137)
+}
+.content-div{
+    margin-top: 23vh;
+    margin-left:48px;
+    position: absolute;
+    text-align: left;
+    
+}
+.content-div h1{
+    color: white;
+    font-size: 84px;
+    line-height: 73px;
+}
+.content-div p{
+    color: rgb(143, 139, 139);
+    font-size: 20px;
+}
+.harshit{
+    width:31%;
+    float: right;
+    position: relative;
+    top:20%;
+    left: 36%;
+    
+}
+ 
+.explore{
+    color :white;
+    position: relative;
+    top:7vh;
+    text-decoration: none;
+    border:2px solid rgb(250, 95, 39);
+    border-radius: 9px;
+    background-color: rgb(250, 95, 39);
+    padding:15px 15px 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.explore:hover,
+.explore:active{
+    background-color: rgb(168, 94, 66);
+    color:white;
+}
+@media screen and (max-width:1279px),(max-width:985px){
+    .harshit{
+        left:-11%
+    }
+    .scrollbutton{
+        display: none;
+    }
+}
+
+@media screen and (max-width:985px) ,(max-width:700px)
+{
+    .harshit{
+        width:34%;
+        top:30%;
+        left: -1%;
+    }
+}
+ 
+@media (max-width:700px),(max-width:500px)
+{
+    .harshit{
+        display:none
+    }
+    .content-div{
+        margin-left: 25%;
+        top:-3%
+    }
+    .header-title{
+        font-size: 20px;
+    }
+    .header-title p{
+        font-size: 14px;
+    }
+    .content-div p{
+        text-align: center;
+    }
+    .explore{
+        left:29%;
+    }
+}
+@media (max-width:450px)
+{   .content-div {
+    right:8% ;
+    }
+    .content-div h1{
+        font-size: 70px;
+        text-align: center;
+    }
+    .content-div p{
+        line-height: 2px;
+        font-size: 15px;
+    }
+    .header-title{
+        margin-top: 28px;
+    }
+
+}
